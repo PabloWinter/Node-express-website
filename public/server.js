@@ -1,8 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 8000;
-
-
 
 //Set port
 app.set('port', process.env.PORT || 8000);
@@ -10,6 +7,9 @@ app.set('port', process.env.PORT || 8000);
 //Set view engine
 app.set('view engine', 'ejs');
 app.set('views', 'public/views');
+
+//Serving static files
+app.use(express.static('public'));
 
 //Routes
 //home page
