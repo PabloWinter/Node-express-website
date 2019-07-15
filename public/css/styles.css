@@ -11,17 +11,32 @@
 }
 
 .info-box{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: white;
 }
 
 .info-button{
     background: rgba(0, 0, 0, 0.4);
     color: white;
+    margin-top: 10px;
 }
 
 .parks-container{
     padding: 30px;
+}
+
+.card .card-img-top{
+    height: 220px;
+}
+
+.card .card-description{
+    height: 250px;
+}
+
+.section-canada-parks{
+    background-color: #343A40;
 }
