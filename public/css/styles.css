@@ -2,14 +2,16 @@ a{
     color: white !important;
 }
 
+/*-------------- Banner -------------- */
+
 .banner{
     position: relative;
     width: 100%;
     height: 95vh;
     background: url(../images/landing-banner.jpg);
-    background-size: cover; 
+    background-size: cover;
 }
-
+/*-------------- End banner -------------- */
 .height{
     height: 100%;
 }
@@ -41,6 +43,37 @@ a{
     height: 135px;
 }
 
-footer ul{
-    list-style-type: none;
+.section-news{
+    position: relative;
+    height: 70vh;
+    background: url(../images/camping.jpg);
+    background-size: cover;
 }
+
+/*-------------- Footer -------------- */
+.footer-top{
+    padding: 70px;
+}
+
+.section1{
+    color: white;
+}
+
+.section2{
+     color: white;
+}
+
+.section3{
+    color: white;
+}
+
+.section4{
+    color: white;
+}
+
+.hr-footer{
+    border: 1px solid white;
+}
+
+/*-------------- End Footer -------------- */
+
