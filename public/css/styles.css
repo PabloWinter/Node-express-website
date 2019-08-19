@@ -1,9 +1,4 @@
-a{
-    color: white !important;
-}
-
 /*-------------- Banner -------------- */
-
 .banner{
     position: relative;
     width: 100%;
@@ -12,6 +7,7 @@ a{
     background-size: cover;
 }
 /*-------------- End banner -------------- */
+
 .height{
     height: 100%;
 }
@@ -30,9 +26,10 @@ a{
     color: white;
     margin-top: 10px;
 }
-
-.parks-container{
-    padding: 10px;
+/*-------------- Section canada parks -------------- */
+.card{
+    border: solid 0.25rem #9A9A75;
+    margin-bottom: 2rem;
 }
 
 .card .card-img-top{
@@ -40,40 +37,78 @@ a{
 }
 
 .card .card-description{
-    height: 135px;
+    height: 170px;
 }
 
+.btn-information{
+    background: #9A9A75;
+}
+
+.link-park a{
+    color: white;
+}
+/*-------------- End section canada parks -------------- */
+
+/*-------------- Single/ park -------------- */
+.banner-single-park-banff{
+    position: relative;
+    height: 80vh;
+    background: url(../images/banff-national-park.jpg);
+    background-size: cover;
+}
+
+.banner-single-park-breton{
+    position: relative;
+    height: 80vh;
+    background: url(../images/cape-breton-park.jpg);
+    background-size: cover;
+}
+
+.banner-single-park-yoho{
+    position: relative;
+    height: 80vh;
+    background: url(../images/yoho-park.jpg);
+    background-size: cover;
+}
+
+.banner-single-park-jasper{
+    position: relative;
+    height: 80vh;
+    background: url(../images/jasper-park.jpg);
+    background-size: cover;
+}
+/*-------------- End single park -------------- */
+
+/*-------------- Section news -------------- */
 .section-news{
     position: relative;
     height: 70vh;
-    background: url(../images/camping.jpg);
+    /* background: url(../images/camping.jpg); */
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/camping.jpg);
     background-size: cover;
 }
+
+.camping-info{
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.camping-info p{
+    font-size: 20px;
+}
+/*-------------- End section news -------------- */
 
 /*-------------- Footer -------------- */
 .footer-top{
     padding: 70px;
 }
 
-.section1{
-    color: white;
-}
-
-.section2{
-     color: white;
-}
-
-.section3{
-    color: white;
-}
-
-.section4{
+.segment{
     color: white;
 }
 
 .hr-footer{
     border: 1px solid white;
 }
-
 /*-------------- End Footer -------------- */
 

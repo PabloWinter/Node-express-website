@@ -5,28 +5,27 @@
 <body>
     <% include includes/navbar.ejs %>
 
-    <div class="container height">
+    <div class="container">
+        <div class="banner-single-park-banff"></div>
         <div class="row">
-            <img class="rounded-circle col-sm-6 mt-4" src="../images/banff-park.jpg" alt="banff">
-            <div class="park-features col-sm-6 mt-4">
+            <p class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                information park
+            </p>
+            <div class="park-features col-sm-12 col-md-6 col-lg-6 mt-4">
                 <div class="card">
-                    <ul class="list-group list-group-flush">
+                    <ul class="list-group list-group-flush website-parks">
                         <li class="list-group-item">Province Region: Alberta</li>
                         <li class="list-group-item">Founded: 1885</li>
                         <li class="list-group-item">Area Land: 4.77 km2 (1.84 sq mi)</li>
-                        <li class="list-group-item">Official Website: http://www.banff.ca/</li>
+                        <li class="list-group-item">Website: <a href="http://www.banff.ca/">Banff Official Website</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <p class="col-sm-12 mt-3">
-                information park
-            </p>
-        </div>
     </div>
 
     <% include includes/footer.ejs %>
+    <% include includes/jquery.ejs %>
 </body>
 
 </html>

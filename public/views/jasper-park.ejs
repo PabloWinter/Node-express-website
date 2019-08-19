@@ -5,28 +5,27 @@
 <body>
     <% include includes/navbar.ejs %>
 
-    <div class="container height">
+    <div class="container">
+        <div class="banner-single-park-jasper"></div>
         <div class="row">
-            <img class="rounded-circle col-sm-6 mt-4" src="../images/jasper-park.jpg" alt="jasper">
-            <div class="park-features col-sm-6 mt-4">
+            <p class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                information park
+            </p>
+            <div class="park-features col-sm-12 col-md-6 col-lg-6 mt-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Province Region: Alberta</li>
                         <li class="list-group-item">Founded: 1813</li>
                         <li class="list-group-item">Area Land: 924.06 km2 (356.78 sq mi)</li>
-                        <li class="list-group-item">Official Website: https://www.jasper-alberta.com/</li>
+                        <li class="list-group-item">Website:  <a class="park-websites" href="https://www.jasper-alberta.com/">Japer Official Website</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <p class="col-sm-12 mt-3">
-                information park
-            </p>
-        </div>
     </div>
 
     <% include includes/footer.ejs %>
+    <% include includes/jquery.ejs %>
 </body>
 
 </html>

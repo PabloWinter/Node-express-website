@@ -5,28 +5,27 @@
 <body>
     <% include includes/navbar.ejs %>
 
-    <div class="container height">
+    <div class="container">
+        <div class="banner-single-park-breton "></div>
         <div class="row">
-            <img class="rounded-circle col-sm-6 mt-4" src="../images/cape-breton-park.jpg" alt="cape-breton">
-            <div class="park-features col-sm-6 mt-4">
+            <p class="col-sm-12 col-md-6 col-lg-6 mt-4">
+                information park
+            </p>
+            <div class="park-features col-sm-12 col-md-6 col-lg-6 mt-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">Province Region: Ingonish, Nova Scotia, Canada</li>
                         <li class="list-group-item">Founded: 1936</li>
                         <li class="list-group-item">Area Land: 949 km2 (366 sq mi)</li>
-                        <li class="list-group-item">Official Website: https://www.pc.gc.ca/en/pn-np/ns/cbreton/</li>
+                        <li class="list-group-item">Website: <a href="https://www.pc.gc.ca/en/pn-np/ns/cbreton/">Cape Breton Official Website</a> </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <p class="col-sm-12 mt-3">
-                information park
-            </p>
-        </div>
     </div>
 
     <% include includes/footer.ejs %>
+    <% include includes/jquery.ejs %>
 </body>
 
 </html>
